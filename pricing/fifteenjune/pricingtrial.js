@@ -1,7 +1,5 @@
 // Last Updated 14 June 24
 
-console.log("Working 14 June 24");
-
 let continentInitial = getCookie("continentCode");
 let regime = "annual";
 let quaterlyPercentageChange = 1.1;
@@ -365,6 +363,7 @@ function calculations(preUser, supUser, supView, rC) {
 dataCurrency.addEventListener("click", () => {
   checkCurrency();
   roiLogicFinal();
+  updateCurrencyIconOnly();
 });
 
 dataPricingQuaterly.addEventListener("click", () => {
