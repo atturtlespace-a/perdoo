@@ -1,0 +1,1 @@
+function updateBoxContents(){document.querySelectorAll("[data-category='box']").forEach(t=>{let e=t.querySelector("[data-category='outside-component']"),o=t.querySelector("[data-category='inside-component']");e&&o&&(o.textContent=e.textContent)}),setTimeout(updateBoxContents,500)}updateBoxContents();
